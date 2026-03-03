@@ -68,10 +68,8 @@ nav .container {
 }
 
 .logo-img {
-  height: 50px;
+  height: 45px;
   width: auto;
-  mix-blend-mode: screen;
-  filter: brightness(1.1);
 }
 
 .nav-links {
@@ -132,14 +130,15 @@ nav .container {
   border-radius: 50%;
 }
 
-.hero-content { max-width: 700px; position: relative; z-index: 2; }
+.hero-content { max-width: 700px; position: relative; z-index: 2; text-align: center; margin: 0 auto; }
 
 .hero-logo {
-  height: 80px;
+  height: 150px;
   width: auto;
-  margin-bottom: 1.5rem;
-  mix-blend-mode: screen;
-  filter: brightness(1.1);
+  margin-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero h1 { color: var(--white); margin-bottom: 1.5rem; }
@@ -506,6 +505,6 @@ footer a { color: var(--accent); text-decoration: none; }
   .science-content { grid-template-columns: 1fr; }
   .btn-secondary { margin-left: 0; margin-top: 1rem; display: inline-block; }
   section { padding: 3rem 0; }
-  .logo-img { height: 40px; }
-  .hero-logo { height: 60px; }
+   .logo-img { height: 35px; }
+  .hero-logo { height: 100px; }
 }
