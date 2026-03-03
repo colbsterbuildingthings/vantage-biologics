@@ -140,3 +140,18 @@ nav .container {
   margin-bottom: 1.5rem;
   mix-blend-mode: screen;
   filter: brightness
+
+  .logo-img {
+  height: 50px;
+  width: auto;
+  mix-blend-mode: screen;
+  filter: brightness(1.1);
+}
+
+.hero-logo {
+  height: 80px;
+  width: auto;
+  margin-bottom: 1.5rem;
+  mix-blend-mode: screen;
+  filter: brightness(1.1);
+}
