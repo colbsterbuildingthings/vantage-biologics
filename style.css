@@ -260,12 +260,13 @@ nav.scrolled .logo-img { height: 58px; }
 
 .stat-num {
   display: block;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2.4rem;
-  font-weight: 600;
+  font-family: 'DM Mono', monospace;
+  font-size: 2.2rem;
+  font-weight: 500;
   color: var(--cyan);
   line-height: 1;
   margin-bottom: 0.35rem;
+  letter-spacing: -1px;
 }
 .stat-label {
   display: block;
@@ -403,13 +404,14 @@ nav.scrolled .logo-img { height: 58px; }
 .service-wide { grid-column: span 3; }
 
 .service-num {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 2.4rem;
-  font-weight: 600;
-  color: var(--border);
+  font-family: 'DM Mono', monospace;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--cyan);
   line-height: 1;
   display: block;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.5px;
 }
 .service-card h4 { color: var(--navy); font-size: 0.95rem; margin-bottom: 0.5rem; }
 .service-card p { color: var(--text-light); font-size: 0.86rem; margin-bottom: 0.85rem; }
@@ -591,12 +593,13 @@ nav.scrolled .logo-img { height: 58px; }
 }
 .sci-num {
   display: block;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 3rem;
-  font-weight: 600;
+  font-family: 'DM Mono', monospace;
+  font-size: 2.8rem;
+  font-weight: 500;
   color: var(--cyan);
   line-height: 1;
   margin-bottom: 0.5rem;
+  letter-spacing: -1px;
 }
 .sci-stat p { color: rgba(255,255,255,0.6); font-size: 0.86rem; margin: 0; }
 .sci-stat strong { color: rgba(255,255,255,0.85); }
