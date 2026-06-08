@@ -3,348 +3,610 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vantage Biologics — Premium Umbilical Cord MSC Exosome Solutions</title>
-  <meta name="description" content="Vantage Biologics partners with medical practices to deliver premium, science-backed umbilical cord MSC exosome solutions for regenerative medicine and aesthetics.">
+  <title>Vantage Biologics — MSC Exosome Practice Integration Consulting</title>
+  <meta name="description" content="Vantage Biologics helps medical practices safely and successfully integrate premium UC-MSC exosome solutions through expert consulting, training, and ongoing support.">
   <link rel="icon" type="image/jpeg" href="vantage%20biologics%20V.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- NAVIGATION -->
-<nav>
+<nav id="mainNav">
   <div class="container">
     <a href="#" class="logo">
       <img src="long%20one2.png" alt="Vantage Biologics" class="logo-img">
     </a>
     <ul class="nav-links" id="navLinks">
+      <li><a href="#consulting">Consulting Services</a></li>
+      <li><a href="#exosome-solutions">Exosome Solutions</a></li>
       <li><a href="#science">The Science</a></li>
-      <li><a href="#compare">Why Exosomes</a></li>
-      <li><a href="#applications">Applications</a></li>
-      <li><a href="#research">Research</a></li>
+      <li><a href="#for-practices">For Practices</a></li>
       <li><a href="#about">About</a></li>
-      <li><a href="#contact" class="nav-cta">Partner With Us</a></li>
+      <li><a href="#contact" class="nav-cta">Book a Consultation</a></li>
     </ul>
-    <button class="mobile-toggle" onclick="document.getElementById('navLinks').classList.toggle('active')">☰</button>
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
+  <div class="hero-bg-grid"></div>
   <div class="container">
-    <div class="hero-content">
-      <img src="just%20the%20v.png" alt="Vantage Biologics" class="hero-logo">
-      <p class="section-subtitle">Regenerative Medicine Redefined</p>
-      <h1>Not All Exosomes Are <span>Created Equal</span></h1>
-      <p>Vantage Biologics partners with forward-thinking medical practices to deliver premium, human-derived umbilical cord MSC exosome solutions — the only exosome product with a 351(a) FDA application, backed by over 900 published studies.</p>
-      <div>
-        <a href="#contact" class="btn-primary">Schedule a Consultation</a>
-        <a href="#science" class="btn-secondary">Explore the Science</a>
-      </div>
-      <div class="hero-stats">
-        <div class="hero-stat">
-          <h3>700+</h3>
-          <p>Growth Factors Per Treatment</p>
-        </div>
-        <div class="hero-stat">
-          <h3>922+</h3>
-          <p>Published Studies on PubMed</p>
-        </div>
-        <div class="hero-stat">
-          <h3>351(a)</h3>
-          <p>Only Exosome With FDA Application</p>
+    <div class="hero-layout">
+      <div class="hero-content">
+        <p class="hero-eyebrow">Practice Integration Consulting</p>
+        <h1>Expert Consulting for Practices Ready to Integrate <em>Premium MSC Exosomes</em></h1>
+        <p class="hero-sub">Vantage Biologics partners with forward-thinking medical practices to safely and successfully add high-quality umbilical cord MSC exosomes through education, training, custom protocols, and ongoing support.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Book a Consultation</a>
+          <a href="#exosome-solutions" class="btn-ghost">Learn About Our Exosome Solutions</a>
         </div>
       </div>
+      <div class="hero-stats-panel">
+        <div class="stat-item">
+          <span class="stat-num">700+</span>
+          <span class="stat-label">Growth Factors Per Treatment</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">922+</span>
+          <span class="stat-label">Published Studies on PubMed</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-num">351(a)</span>
+          <span class="stat-label">Only Exosome With FDA Application</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-disclaimer">
+      <p><strong>Important:</strong> The exosome products referenced are classified under FDA Section 351(a) and are for investigational use only — not approved to diagnose, treat, cure, or prevent any disease. Vantage Biologics is a consulting and distribution partner and does not manufacture exosome products. All practice implementations must comply with applicable laws and clinical judgment.</p>
     </div>
   </div>
 </section>
 
-<!-- WHAT ARE EXOSOMES -->
-<section class="what-are" id="science">
+<!-- TRUST BAR -->
+<div class="trust-bar">
   <div class="container">
-    <p class="section-subtitle">The Science</p>
-    <h2>What are exosomes?</h2>
-    <div class="science-content">
-      <div>
-        <p style="color: var(--text-light); margin-bottom: 1.5rem;">Exosomes are small vesicles secreted by stem cells that contain large amounts of growth factors, cytokines, and other substances with high regenerative potential. Their unique structure allows them to fuse with other cells in the body and release their contents — including growth factors, cytokines, and miRNA — helping cells heal through transferred signaling molecules.</p>
-        <p style="color: var(--text-light); margin-bottom: 1.5rem;">Unlike stem cells, exosomes <strong>do not replicate, do not contain DNA, and do not trigger an immune response</strong> — resulting in a safer product. By definition, exosome products are cell-free and contain no live cells.</p>
-        <p style="color: var(--text-light); margin-bottom: 2rem;">Our exosomes are derived from <strong>Wharton's Jelly</strong> located inside donated umbilical cords from full-term, live births — the most robust and plentiful source of regenerative stem cells available, and the most ethically appropriate source for manufacturing exosomes.</p>
-        <ul class="science-points">
-          <li><strong>Not lyophilized</strong> — Unlike competing products, our exosomes are never freeze-dried, preserving the full potency of all growth factors.</li>
-          <li><strong>Third-party tested by Eurofins</strong> — Every batch is tested by one of the world's top-rated bioanalytical laboratories, ensuring the highest quality and efficacy standards.</li>
-          <li><strong>ISO-5, FDA approved facility</strong> — Manufactured under the highest quality standards available in the industry.</li>
-          <li><strong>Extensive donor screening</strong> — All donated material undergoes comprehensive health and wellness screening, including vaccination screening.</li>
-          <li><strong>Repeatable results</strong> — Consistent potency and efficacy from batch to batch, giving practitioners confidence in every treatment.</li>
-          <li><strong>Topical shelf stability</strong> — Patented technology allows our topical gel products to be stored for 18 months at room temperature, simplifying practice logistics.</li>
+    <div class="trust-items">
+      <div class="trust-item">
+        <span class="trust-icon">🔬</span>
+        <span>Third-Party Tested by Eurofins</span>
+      </div>
+      <div class="trust-sep">·</div>
+      <div class="trust-item">
+        <span class="trust-icon">🏭</span>
+        <span>ISO-5, FDA Approved Facility</span>
+      </div>
+      <div class="trust-sep">·</div>
+      <div class="trust-item">
+        <span class="trust-icon">📋</span>
+        <span>Only 351(a) FDA Application in Class</span>
+      </div>
+      <div class="trust-sep">·</div>
+      <div class="trust-item">
+        <span class="trust-icon">🤝</span>
+        <span>Ongoing Practice Support Included</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CONSULTING SERVICES — FLAGSHIP PAGE -->
+<section id="consulting" class="consulting">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-label">Our Core Offering</p>
+      <h2>Practice Integration Consulting<br><em>for MSC Exosomes</em></h2>
+      <p class="section-intro">We don't just sell a product — we walk alongside your practice through every step of implementation, from your first lunch & learn to long-term protocol optimization.</p>
+    </div>
+
+    <!-- WHY HIRE VANTAGE -->
+    <div class="why-grid">
+      <div class="why-header">
+        <h3>Why Practices Hire Vantage as Their Consultant</h3>
+        <p>Integrating a new modality is complex. Vantage Biologics removes the guesswork — and the risk.</p>
+      </div>
+      <div class="why-cards">
+        <div class="why-card">
+          <div class="why-icon">🛡️</div>
+          <h4>Reduce Risk with Compliant Implementation</h4>
+          <p>We help you implement within regulatory guidelines, protecting your practice from costly missteps in a rapidly evolving space.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🎓</div>
+          <h4>Build Staff Confidence Through Expert Training</h4>
+          <p>Your team will understand the science, the protocols, and the patient conversation — creating confidence from front desk to provider.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">⚡</div>
+          <h4>Faster Time-to-Revenue with Proven Protocols</h4>
+          <p>Skip the trial-and-error phase. Our frameworks are built on what's already working across multiple practice types and specialties.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">🔄</div>
+          <h4>Ongoing Support vs. One-Time Product Purchase</h4>
+          <p>We're a long-term partner, not a one-and-done vendor. Check-ins, troubleshooting, and reordering assistance are built into our relationship.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SERVICES MENU -->
+    <div class="services-block">
+      <h3>Our Consulting Services</h3>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-num">01</div>
+          <h4>Lunch &amp; Learn Educational Sessions</h4>
+          <p>Free introductory or paid in-depth educational sessions for your team, covering the science, patient candidates, and implementation basics. A natural first step for most practices.</p>
+          <span class="service-tag">Intro / Paid In-Depth</span>
+        </div>
+        <div class="service-card">
+          <div class="service-num">02</div>
+          <h4>Half-Day or Full-Day On-Site Training</h4>
+          <p>Hands-on, immersive training at your facility. We work directly with your providers and staff to build competence and confidence in real-world conditions.</p>
+          <span class="service-tag">On-Site</span>
+        </div>
+        <div class="service-card">
+          <div class="service-num">03</div>
+          <h4>Custom Protocol Development</h4>
+          <p>Protocols tailored specifically to your specialty — whether aesthetics, orthopedics, functional wellness, or others — built around your patient population and practice goals.</p>
+          <span class="service-tag">Specialty-Specific</span>
+        </div>
+        <div class="service-card">
+          <div class="service-num">04</div>
+          <h4>Staff Role Training &amp; Certification</h4>
+          <p>Role-specific training ensures every team member — MDs, NPs, PAs, aestheticians, front desk — knows their responsibilities and can communicate the value to patients effectively.</p>
+          <span class="service-tag">All Roles</span>
+        </div>
+        <div class="service-card">
+          <div class="service-num">05</div>
+          <h4>Integration Roadmap</h4>
+          <p>A comprehensive plan covering patient flow, compliant pricing strategy, and marketing guidance to help your practice launch exosome services smoothly and professionally.</p>
+          <span class="service-tag">Patient Flow · Pricing · Marketing</span>
+        </div>
+        <div class="service-card">
+          <div class="service-num">06</div>
+          <h4>Ongoing Support Packages</h4>
+          <p>Monthly check-ins, clinical troubleshooting, outcome tracking, and reordering assistance — ensuring your program stays strong and evolves as the science does.</p>
+          <span class="service-tag">Monthly Retainer</span>
+        </div>
+        <div class="service-card service-card-wide">
+          <div class="service-num">07</div>
+          <h4>Pilot Program Consulting</h4>
+          <p>Not ready to fully commit? We'll help you design and execute a low-risk pilot — identifying ideal initial patient candidates, tracking outcomes, and building internal buy-in before scaling.</p>
+          <span class="service-tag">Low-Risk Entry</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- OUTCOMES -->
+    <div class="outcomes-block">
+      <div class="outcomes-text">
+        <h3>Typical Engagement Outcomes</h3>
+        <p>Practices that work with Vantage Biologics consistently report the following results within their first 90 days:</p>
+        <ul class="outcomes-list">
+          <li>Staff fully trained and confident in patient-facing conversations about exosome therapy</li>
+          <li>Compliant protocols in place across targeted treatment areas</li>
+          <li>Clear pricing structure and service menu developed</li>
+          <li>First patient treatments completed under guided protocols</li>
+          <li>Revenue from exosome services begins offsetting consulting investment</li>
+          <li>Documented outcomes tracking system established</li>
         </ul>
+        <div class="testimonial-placeholder">
+          <p class="testimonial-text"><em>"Testimonial coming soon — contact us to share your experience."</em></p>
+          <p class="testimonial-attr">— Partner Practice</p>
+        </div>
       </div>
-      <div class="science-highlight">
-        <h3>700+</h3>
-        <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">growth factors delivered per treatment — compared to just 15-25 from a typical PRP injection.</p>
-        <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">That makes exosome therapy potentially <strong>60 times more powerful</strong> than PRP treatment.</p>
-        <p style="font-size: 0.9rem;">Benefits have been observed extending <strong>several years</strong> after completion, with some patients seeing results almost immediately and others within 2-3 months.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- COMPARISONS: EXOSOMES VS PRP VS STEM CELLS -->
-<section class="comparisons" id="compare">
-  <div class="container">
-    <p class="section-subtitle">Why Exosomes</p>
-    <h2>A superior approach to regenerative medicine</h2>
-    <div class="problem-grid">
-      <div class="problem-card">
-        <span class="tag tag-plant">Current Standard</span>
-        <h3>PRP Therapy</h3>
-        <p style="color: var(--text-light); font-size: 0.95rem;">Platelet-rich plasma delivers roughly <strong>15-25 growth factors</strong> to the treatment area. While established, PRP is limited in regenerative potential and requires drawing the patient's own blood each session.</p>
-      </div>
-      <div class="problem-card">
-        <span class="tag tag-marine">Live Cells</span>
-        <h3>Stem Cell Therapy</h3>
-        <p style="color: var(--text-light); font-size: 0.95rem;">Live stem cells have a <strong>relatively short lifespan</strong> once injected. In rare cases they can cause immune responses, accumulate in blood vessels, or cause random growths. Much of their therapeutic benefit actually comes from the exosomes they release.</p>
-      </div>
-      <div class="problem-card highlight">
-        <span class="tag tag-human">The Premium Choice</span>
-        <h3>UC-MSC Exosome Therapy</h3>
-        <p style="color: var(--text-light); font-size: 0.95rem;">Over <strong>700+ growth factors</strong> per treatment. No live DNA, no immune response risk, no replication concerns. Cell-free, safe, and potentially <strong>60x more powerful than PRP</strong>. Benefits observed lasting years.</p>
+      <div class="pricing-panel">
+        <h3>Consulting Investment</h3>
+        <div class="pricing-tier">
+          <div class="pricing-tier-name">Discovery Session</div>
+          <div class="pricing-tier-desc">Lunch &amp; Learn or intro call — understanding your practice, goals, and fit.</div>
+          <div class="pricing-tier-cta"><a href="#contact" class="btn-small">Complimentary</a></div>
+        </div>
+        <div class="pricing-tier pricing-tier-featured">
+          <div class="pricing-tier-name">Practice Integration Package</div>
+          <div class="pricing-tier-desc">On-site training, protocol development, roadmap, and 90-day support.</div>
+          <div class="pricing-tier-cta"><a href="#contact" class="btn-small btn-small-light">Custom Pricing</a></div>
+        </div>
+        <div class="pricing-tier">
+          <div class="pricing-tier-name">Ongoing Support Retainer</div>
+          <div class="pricing-tier-desc">Monthly check-ins, troubleshooting, and program optimization.</div>
+          <div class="pricing-tier-cta"><a href="#contact" class="btn-small">Contact Us</a></div>
+        </div>
+        <p class="pricing-note">All engagements are customized to your practice size, specialty, and goals. Contact us for a detailed proposal.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- SOURCE MATTERS -->
-<section class="source-matters">
+<!-- EXOSOME SOLUTIONS -->
+<section id="exosome-solutions" class="exosome-solutions">
   <div class="container">
-    <p class="section-subtitle">Source Matters</p>
-    <h2>Not all exosomes are created equal</h2>
-    <p style="max-width: 700px; color: var(--text-light);">The exosome market is growing rapidly, but most products are plant-based, marine-derived, or lyophilized — limiting their bioactive potential. Here's how the sources compare.</p>
-    <div class="problem-grid" style="margin-top: 2rem;">
-      <div class="problem-card">
-        <span class="tag tag-plant">Plant-Derived</span>
-        <h3>Plant-Based Exosomes</h3>
-        <p style="color: var(--text-light); font-size: 0.95rem;">Derived from fruits, vegetables, or other plant sources. They lack human-compatible signaling molecules and have minimal clinical evidence for therapeutic applications in human tissue regeneration.</p>
+    <div class="section-header">
+      <p class="section-label">Product Information</p>
+      <h2>Premium UC-MSC <em>Exosome Solutions</em></h2>
+      <p class="section-intro">We help practices implement the only umbilical cord MSC exosome product with a 351(a) FDA application — not because it's the easiest sell, but because it's the most defensible choice for your practice and patients.</p>
+    </div>
+    <div class="solutions-grid">
+      <div class="solution-card">
+        <div class="sol-icon">💉</div>
+        <h4>Direct Injection</h4>
+        <p>Targeted delivery to joints, spine, soft tissue, and localized treatment areas. Ideal for orthopedic and pain-focused practices.</p>
       </div>
-      <div class="problem-card">
-        <span class="tag tag-marine">Marine-Derived</span>
-        <h3>Salmon & Marine Exosomes</h3>
-        <p style="color: var(--text-light); font-size: 0.95rem;">A newer entrant to the market. While novel, marine-derived exosomes lack the depth of clinical research, human biocompatibility, and the growth factor profile needed for meaningful regenerative outcomes.</p>
+      <div class="solution-card">
+        <div class="sol-icon">🩺</div>
+        <h4>IV Administration</h4>
+        <p>Intravenous push or drip for systemic conditions requiring whole-body distribution of growth factors and regenerative signaling.</p>
       </div>
-      <div class="problem-card highlight">
-        <span class="tag tag-human">Human-Derived</span>
-        <h3>Umbilical Cord MSC Exosomes</h3>
-        <p style="color: var(--text-light); font-size: 0.95rem;">Derived from Wharton's Jelly in human umbilical cords — the gold standard. Over 922 published studies. Rich in bioactive growth factors, cytokines, and signaling molecules with natural human biocompatibility. The <strong>only product with a 351(a) FDA application</strong>.</p>
+      <div class="solution-card">
+        <div class="sol-icon">🌬️</div>
+        <h4>Nebulization</h4>
+        <p>Inhaled delivery for pulmonary and certain neurological applications, allowing direct access to respiratory tissue.</p>
+      </div>
+      <div class="solution-card">
+        <div class="sol-icon">✨</div>
+        <h4>Topical Application</h4>
+        <p>Gels, serums, and topical solutions for aesthetic procedures — patented technology allows 18-month room-temperature shelf stability.</p>
+      </div>
+    </div>
+    <div class="product-differentiators">
+      <h3>What Sets This Product Apart</h3>
+      <div class="diff-list">
+        <div class="diff-item">
+          <span class="diff-check">✓</span>
+          <div><strong>Not lyophilized</strong> — never freeze-dried, preserving the full potency of all growth factors unlike competing products.</div>
+        </div>
+        <div class="diff-item">
+          <span class="diff-check">✓</span>
+          <div><strong>Third-party tested by Eurofins</strong> — every batch verified by one of the world's top bioanalytical laboratories.</div>
+        </div>
+        <div class="diff-item">
+          <span class="diff-check">✓</span>
+          <div><strong>ISO-5, FDA approved facility</strong> — manufactured under the highest quality standards in the industry.</div>
+        </div>
+        <div class="diff-item">
+          <span class="diff-check">✓</span>
+          <div><strong>Extensive donor screening</strong> — all donated material undergoes comprehensive health, wellness, and vaccination screening.</div>
+        </div>
+        <div class="diff-item">
+          <span class="diff-check">✓</span>
+          <div><strong>Wharton's Jelly source</strong> — derived from the most robust and ethically appropriate source of regenerative stem cells available.</div>
+        </div>
+        <div class="diff-item">
+          <span class="diff-check">✓</span>
+          <div><strong>Only 351(a) FDA application</strong> — the sole exosome product classified exclusively for products containing no tissue or DNA.</div>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- DELIVERY METHODS -->
-<section class="delivery" style="background: var(--light);">
+<!-- THE SCIENCE -->
+<section id="science" class="science">
   <div class="container">
-    <p class="section-subtitle">Versatile Treatment Options</p>
-    <h2>Multiple delivery methods for every practice</h2>
-    <p style="max-width: 700px; color: var(--text-light);">Our exosome solutions can be administered through multiple methods, giving practitioners flexibility to tailor treatments to each patient's needs.</p>
-    <div class="app-grid" style="margin-top: 2rem;">
-      <div class="app-card">
-        <div class="app-icon">💉</div>
-        <h3>Direct Injection</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">Targeted delivery directly to the treatment area — joints, spine, soft tissue, and more. Ideal for orthopedic and localized conditions.</p>
+    <div class="section-header light">
+      <p class="section-label">The Science</p>
+      <h2>What Are <em>Exosomes?</em></h2>
+    </div>
+    <div class="science-layout">
+      <div class="science-text">
+        <p>Exosomes are small vesicles secreted by stem cells containing large amounts of growth factors, cytokines, and other substances with high regenerative potential. Their unique structure allows them to fuse with other cells and release signaling molecules — including growth factors, cytokines, and miRNA — facilitating cellular communication and healing.</p>
+        <p>Unlike stem cells, exosomes <strong>do not replicate, do not contain DNA, and do not trigger an immune response</strong> — resulting in a safer, cell-free therapeutic product.</p>
+        <p>Our exosomes are derived from <strong>Wharton's Jelly</strong> inside donated umbilical cords from full-term, live births — the most robust, plentiful, and ethically appropriate source of regenerative stem cells available.</p>
       </div>
-      <div class="app-card">
-        <div class="app-icon">🩺</div>
-        <h3>IV Treatment</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">Intravenous push or drip for systemic conditions requiring whole-body distribution of growth factors and regenerative signaling.</p>
+      <div class="science-callouts">
+        <div class="science-callout">
+          <div class="callout-num">700+</div>
+          <p>Growth factors per treatment vs. just 15–25 from a typical PRP injection — potentially <strong>60× more potent</strong>.</p>
+        </div>
+        <div class="science-callout">
+          <div class="callout-num">922+</div>
+          <p>Published peer-reviewed studies on UC-MSC exosomes available on PubMed.</p>
+        </div>
       </div>
-      <div class="app-card">
-        <div class="app-icon">🌬️</div>
-        <h3>Nebulization</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">Inhaled delivery for pulmonary and neurological applications, allowing direct access to respiratory tissue and crossing the blood-brain barrier.</p>
+    </div>
+
+    <!-- COMPARISON -->
+    <div class="compare-block">
+      <h3>Why Exosomes Over PRP or Stem Cells?</h3>
+      <div class="compare-grid">
+        <div class="compare-card">
+          <span class="compare-tag">Current Standard</span>
+          <h4>PRP Therapy</h4>
+          <p>Delivers roughly 15–25 growth factors. Established, but limited in regenerative potential. Requires drawing patient blood each session.</p>
+        </div>
+        <div class="compare-card">
+          <span class="compare-tag compare-tag-mid">Live Cells</span>
+          <h4>Stem Cell Therapy</h4>
+          <p>Relatively short lifespan once injected. Rare immune response risks. Much of the therapeutic benefit actually comes from the exosomes stem cells release.</p>
+        </div>
+        <div class="compare-card compare-card-highlight">
+          <span class="compare-tag compare-tag-highlight">The Premium Choice</span>
+          <h4>UC-MSC Exosome Therapy</h4>
+          <p>700+ growth factors. No live DNA, no immune response risk. Cell-free, safe, and potentially 60× more powerful than PRP. Benefits observed lasting years.</p>
+        </div>
       </div>
-      <div class="app-card">
-        <div class="app-icon">✨</div>
-        <h3>Topical Application</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">Gels, serums, and topical solutions for aesthetic procedures, wound healing, skin rejuvenation, and hair restoration protocols.</p>
+    </div>
+
+    <!-- SOURCE MATTERS -->
+    <div class="source-block">
+      <h3>Source Matters — Not All Exosomes Are Equal</h3>
+      <p style="color:rgba(255,255,255,0.6); max-width:600px; margin-bottom:2rem;">The exosome market is growing rapidly, but most products are plant-based, marine-derived, or lyophilized — limiting their bioactive potential.</p>
+      <div class="compare-grid">
+        <div class="compare-card">
+          <span class="compare-tag">Plant-Derived</span>
+          <h4>Plant-Based Exosomes</h4>
+          <p>Lack human-compatible signaling molecules and have minimal clinical evidence for therapeutic applications in human tissue regeneration.</p>
+        </div>
+        <div class="compare-card">
+          <span class="compare-tag compare-tag-mid">Marine-Derived</span>
+          <h4>Salmon &amp; Marine Exosomes</h4>
+          <p>Novel but lack the depth of clinical research, human biocompatibility, and growth factor profile needed for meaningful regenerative outcomes.</p>
+        </div>
+        <div class="compare-card compare-card-highlight">
+          <span class="compare-tag compare-tag-highlight">Gold Standard</span>
+          <h4>Umbilical Cord MSC Exosomes</h4>
+          <p>Derived from Wharton's Jelly. 922+ published studies. Rich in bioactive growth factors with natural human biocompatibility. The only product with a 351(a) FDA application.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- APPLICATIONS -->
-<section class="applications" id="applications">
+<!-- FOR PRACTICES -->
+<section id="for-practices" class="for-practices">
   <div class="container">
-    <p class="section-subtitle">Clinical Applications</p>
-    <h2>One platform. Countless possibilities.</h2>
-    <p style="max-width: 700px; color: var(--text-light);">UC-MSC exosomes are being researched and applied across an extraordinary range of medical specialties and conditions.</p>
-    <div class="app-grid">
-      <div class="app-card">
-        <div class="app-icon">✨</div>
-        <h3>Medical Aesthetics</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">Skin rejuvenation, wrinkle reduction, scar treatment, hair restoration, anti-aging optimization, and vaginal rejuvenation.</p>
+    <div class="section-header">
+      <p class="section-label">For Practices</p>
+      <h2>Research Areas &amp; <em>Clinical Contexts</em></h2>
+      <p class="section-intro">The following represents areas where UC-MSC exosome research is active and growing. This is not a list of approved indications. All clinical application decisions must be made by licensed providers in accordance with applicable regulations and clinical judgment.</p>
+      <div class="research-disclaimer-banner">⚠️ The following are active research areas only. These products are for investigational use and are not approved to diagnose, treat, cure, or prevent any disease.</div>
+    </div>
+    <div class="research-areas-grid">
+      <div class="ra-card">
+        <div class="ra-icon">✨</div>
+        <h4>Medical Aesthetics</h4>
+        <p>Skin rejuvenation, scar treatment, hair restoration, anti-aging optimization.</p>
       </div>
-      <div class="app-card">
-        <div class="app-icon">🦴</div>
-        <h3>Orthopedics</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">Osteoarthritis, meniscus tears, ACL injuries, rotator cuff injuries, plantar fasciitis, bone fractures, bone fusion, spinal injuries, and cartilage regeneration.</p>
+      <div class="ra-card">
+        <div class="ra-icon">🦴</div>
+        <h4>Orthopedics</h4>
+        <p>Osteoarthritis, joint injuries, spinal conditions, cartilage research applications.</p>
       </div>
-      <div class="app-card">
-        <div class="app-icon">🧠</div>
-        <h3>Neurological</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">Traumatic brain injury, stroke, dementia, Alzheimer's, Parkinson's, multiple sclerosis, ALS, autism, epilepsy, PTSD, and peripheral nerve damage.</p>
+      <div class="ra-card">
+        <div class="ra-icon">🧠</div>
+        <h4>Neurological</h4>
+        <p>TBI, stroke recovery, neurodegenerative conditions — active research areas.</p>
       </div>
-      <div class="app-card">
-        <div class="app-icon">❤️</div>
-        <h3>Cardiovascular</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">Congestive heart failure, coronary artery disease, hypertension, and general cardiac tissue repair and regeneration.</p>
+      <div class="ra-card">
+        <div class="ra-icon">❤️</div>
+        <h4>Cardiovascular</h4>
+        <p>Cardiac tissue repair, CHF, coronary artery disease — investigational contexts.</p>
       </div>
-      <div class="app-card">
-        <div class="app-icon">🫁</div>
-        <h3>Pulmonary</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">COPD, pulmonary fibrosis, respiratory issues, long COVID recovery, and post-vaccine complications.</p>
+      <div class="ra-card">
+        <div class="ra-icon">🫁</div>
+        <h4>Pulmonary</h4>
+        <p>COPD, pulmonary fibrosis, respiratory research and post-illness recovery contexts.</p>
       </div>
-      <div class="app-card">
-        <div class="app-icon">🛡️</div>
-        <h3>Autoimmune & Systemic</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">Autoimmune diseases, Lyme disease, fibromyalgia, IBS, gut health, type 2 diabetes, liver disease, kidney disease, and systemic inflammation.</p>
+      <div class="ra-card">
+        <div class="ra-icon">💪</div>
+        <h4>Sports Medicine</h4>
+        <p>Muscle and tendon injury research, accelerated recovery protocols.</p>
       </div>
-      <div class="app-card">
-        <div class="app-icon">💪</div>
-        <h3>Sports Medicine</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">Muscle strains and tears, tendinitis, tendinopathy, overuse injuries, shin splints, ligament and tendon repair, and accelerated recovery.</p>
+      <div class="ra-card">
+        <div class="ra-icon">🛡️</div>
+        <h4>Autoimmune &amp; Systemic</h4>
+        <p>Inflammatory and autoimmune conditions — emerging research landscape.</p>
       </div>
-      <div class="app-card">
-        <div class="app-icon">🔬</div>
-        <h3>Preventative & Wellness</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">Full-body anti-aging optimization, preventative maintenance protocols, tinnitus, glaucoma, Bell's palsy, and overall wellness enhancement.</p>
+      <div class="ra-card">
+        <div class="ra-icon">🔬</div>
+        <h4>Preventative Wellness</h4>
+        <p>Anti-aging optimization, whole-body wellness protocols — investigational use.</p>
       </div>
-      <div class="app-card">
-        <div class="app-icon">💆</div>
-        <h3>Wound Healing & Tissue Repair</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">Accelerated wound closure, scarless healing, burn treatment, tissue regeneration, and post-surgical recovery support.</p>
+      <div class="ra-card">
+        <div class="ra-icon">💆</div>
+        <h4>Wound Healing</h4>
+        <p>Accelerated wound closure, scarless healing research, post-surgical contexts.</p>
       </div>
     </div>
-  </div>
-</section>
 
-<!-- PUBLISHED RESEARCH -->
-<section class="research" id="research">
-  <div class="container">
-    <p class="section-subtitle">Published Research</p>
-    <h2>Backed by peer-reviewed science</h2>
-    <p style="color: rgba(255,255,255,0.6); max-width: 700px;">Every claim we make is grounded in published, peer-reviewed research. Here are selected studies demonstrating the therapeutic potential of UC-MSC exosomes.</p>
-    <div class="study-grid">
-      <div class="study-card">
-        <span class="study-tag">Skin Rejuvenation</span>
-        <h4>Exosomes derived from human umbilical cord blood MSCs stimulate rejuvenation of human skin</h4>
-        <p>Demonstrated that UC-MSC exosomes integrate into human dermal fibroblasts, promoting cell migration and synthesis of Collagen I and Elastin — essential proteins for skin rejuvenation.</p>
-        <p>Kim et al. · Biochem Biophys Res Commun · 2017</p>
-        <a href="https://pubmed.ncbi.nlm.nih.gov/28919421/" target="_blank" class="study-link">View on PubMed →</a>
+    <!-- PUBLISHED RESEARCH -->
+    <div class="research-studies">
+      <h3>Selected Published Research</h3>
+      <p style="color:var(--text-light); margin-bottom:2rem;">Every claim Vantage Biologics makes is grounded in published, peer-reviewed research. The following are selected studies from the 922+ available on PubMed.</p>
+      <div class="study-grid">
+        <div class="study-card">
+          <span class="study-tag">Skin Rejuvenation</span>
+          <h4>Exosomes derived from human umbilical cord blood MSCs stimulate rejuvenation of human skin</h4>
+          <p>UC-MSC exosomes integrate into human dermal fibroblasts, promoting cell migration and synthesis of Collagen I and Elastin — essential proteins for skin rejuvenation.</p>
+          <p class="study-meta">Kim et al. · Biochem Biophys Res Commun · 2017</p>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/28919421/" target="_blank" class="study-link">View on PubMed →</a>
+        </div>
+        <div class="study-card">
+          <span class="study-tag">Aesthetics / Anti-Scarring</span>
+          <h4>UC-MSC-derived small extracellular vesicles modulate skin matrix synthesis and pigmentation</h4>
+          <p>UC-MSC exosomes stimulate fibroblast proliferation, regulate extracellular matrix synthesis, and reduce melanin production — applications in scar reduction and skin lightening.</p>
+          <p class="study-meta">Kee et al. · Int J Nanomedicine · 2025</p>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/39931529/" target="_blank" class="study-link">View on PubMed →</a>
+        </div>
+        <div class="study-card">
+          <span class="study-tag">Wound Healing</span>
+          <h4>hUC-MSC exosomes promote scarless wound healing by precisely regulating collagen I/III regeneration</h4>
+          <p>First study to elucidate how UC-MSC exosomes achieve scarless healing through miR-185-5p, precisely remodeling collagen ratios via the RhoA/YAP signaling axis.</p>
+          <p class="study-meta">Yang et al. · Advanced Science · 2026</p>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41709861/" target="_blank" class="study-link">View on PubMed →</a>
+        </div>
+        <div class="study-card">
+          <span class="study-tag">Neurology</span>
+          <h4>Stem cell-derived exosomes improve neurological dysfunction in moderate-to-severe cerebral palsy</h4>
+          <p>hUCMSC-Exos restored motor coordination and cognitive function through enhanced remyelination and reduced neuroinflammation while elevating BDNF.</p>
+          <p class="study-meta">Peng et al. · Stem Cell Rev Rep · 2026</p>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41729433/" target="_blank" class="study-link">View on PubMed →</a>
+        </div>
+        <div class="study-card">
+          <span class="study-tag">Ophthalmology</span>
+          <h4>UCMSC-derived exosomes ameliorate dry eye disease by modulating Th17/Treg balance</h4>
+          <p>UC-MSC exosomes modulated immune response and promoted corneal epithelial regeneration, reducing inflammation in dry eye disease.</p>
+          <p class="study-meta">Gong et al. · Scientific Reports · 2026</p>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41644660/" target="_blank" class="study-link">View on PubMed →</a>
+        </div>
+        <div class="study-card">
+          <span class="study-tag">Cardiovascular</span>
+          <h4>MSC-derived exosomes in myocardial infarction repair: therapeutic potential and delivery strategies</h4>
+          <p>Comprehensive review highlighting MSC exosome applications in cardiac repair, with favorable safety profile for heart tissue regeneration.</p>
+          <p class="study-meta">Azimian Zavareh et al. · Front Pharmacol · 2026</p>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41727547/" target="_blank" class="study-link">View on PubMed →</a>
+        </div>
       </div>
-      <div class="study-card">
-        <span class="study-tag">Aesthetics / Anti-Scarring</span>
-        <h4>UC-MSC-derived small extracellular vesicles modulate skin matrix synthesis and pigmentation</h4>
-        <p>Found that UC-MSC exosomes stimulate fibroblast proliferation, regulate extracellular matrix synthesis, and reduce melanin production — applications in scar reduction and skin lightening.</p>
-        <p>Kee et al. · Int J Nanomedicine · 2025</p>
-        <a href="https://pubmed.ncbi.nlm.nih.gov/39931529/" target="_blank" class="study-link">View on PubMed →</a>
-      </div>
-      <div class="study-card">
-        <span class="study-tag">Wound Healing</span>
-        <h4>hUC-MSC exosomes promote scarless wound healing by precisely regulating collagen I/III regeneration</h4>
-        <p>First study to elucidate how UC-MSC exosomes achieve scarless healing through miR-185-5p, precisely remodeling collagen ratios via the RhoA/YAP signaling axis.</p>
-        <p>Yang et al. · Advanced Science · 2026</p>
-        <a href="https://pubmed.ncbi.nlm.nih.gov/41709861/" target="_blank" class="study-link">View on PubMed →</a>
-      </div>
-      <div class="study-card">
-        <span class="study-tag">Neurology</span>
-        <h4>Stem cell-derived exosomes improve neurological dysfunction in moderate-to-severe cerebral palsy</h4>
-        <p>hUCMSC-Exos restored motor coordination and cognitive function through enhanced remyelination and reduced neuroinflammation (TNF-α, IL-6) while elevating BDNF.</p>
-        <p>Peng et al. · Stem Cell Rev Rep · 2026</p>
-        <a href="https://pubmed.ncbi.nlm.nih.gov/41729433/" target="_blank" class="study-link">View on PubMed →</a>
-      </div>
-      <div class="study-card">
-        <span class="study-tag">Ophthalmology</span>
-        <h4>UCMSC-derived exosomes ameliorate dry eye disease by modulating Th17/Treg balance</h4>
-        <p>UC-MSC exosomes modulated immune response and promoted corneal epithelial regeneration, reestablishing immune cell balance and reducing inflammation in dry eye disease.</p>
-        <p>Gong et al. · Scientific Reports · 2026</p>
-        <a href="https://pubmed.ncbi.nlm.nih.gov/41644660/" target="_blank" class="study-link">View on PubMed →</a>
-      </div>
-      <div class="study-card">
-        <span class="study-tag">Cardiovascular</span>
-        <h4>MSC-derived exosomes in myocardial infarction repair: therapeutic potential and delivery strategies</h4>
-        <p>Comprehensive review of MSC exosome applications in cardiac repair, highlighting their multipotent differentiation potential and favorable safety profile for heart tissue regeneration.</p>
-        <p>Azimian Zavareh et al. · Front Pharmacol · 2026</p>
-        <a href="https://pubmed.ncbi.nlm.nih.gov/41727547/" target="_blank" class="study-link">View on PubMed →</a>
-      </div>
+      <p class="research-note">These represent a small selection from 922+ published studies on UC-MSC exosomes available on PubMed.</p>
     </div>
-    <p class="research-note">These represent a small selection from 922+ published studies on UC-MSC exosomes available on PubMed.</p>
   </div>
 </section>
 
 <!-- ABOUT -->
-<section class="about" id="about">
+<section id="about" class="about">
   <div class="container">
-    <p class="section-subtitle">Why Vantage Biologics</p>
-    <h2>Your partner in regenerative medicine</h2>
-    <p style="max-width: 700px; color: var(--text-light);">Vantage Biologics is a regenerative medicine consulting firm specializing in premium UC-MSC exosome solutions. We partner with medical practices to bring the highest standard of exosome technology to their patients.</p>
-    <div class="about-grid">
-      <div class="about-card">
-        <div class="icon">🔬</div>
-        <h3>Science-First Approach</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">Every product we represent is backed by published, peer-reviewed research, third-party tested by Eurofins, and manufactured in an ISO-5, FDA approved facility. We don't sell hype — we deliver science.</p>
+    <div class="about-layout">
+      <div class="about-text">
+        <p class="section-label">About Vantage Biologics</p>
+        <h2>A Consulting Partner,<br><em>Not Just a Vendor</em></h2>
+        <p>Vantage Biologics is a regenerative medicine consulting and distribution firm specializing in premium UC-MSC exosome solutions. We partner with medical practices to bring the highest standard of exosome technology to their patients — through education, training, and real hands-on support.</p>
+        <p>We are a consulting and distribution partner. <strong>We do not manufacture exosome products.</strong> What we bring is deep expertise in implementation, compliance, and the science that helps your team feel confident and your patients feel cared for.</p>
       </div>
-      <div class="about-card">
-        <div class="icon">🏥</div>
-        <h3>Practice Integration</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">We don't just supply products. We partner with your practice to educate staff, develop treatment protocols, and ensure successful implementation from day one.</p>
-      </div>
-      <div class="about-card">
-        <div class="icon">📋</div>
-        <h3>The Only 351(a) Application</h3>
-        <p style="color: var(--text-light); font-size: 0.9rem;">Our exosome product is the only one with a 351(a) FDA application — a classification exclusively for products that do not contain tissue or DNA. This is a critical differentiation from every other product on the market.</p>
+      <div class="about-cards">
+        <div class="about-card">
+          <div class="about-icon">🔬</div>
+          <h4>Science-First Approach</h4>
+          <p>Every product we represent is backed by published research, third-party tested, and manufactured in an FDA-approved ISO-5 facility. We don't sell hype.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">🏥</div>
+          <h4>Practice Integration Specialists</h4>
+          <p>We partner with your practice to educate staff, develop protocols, and ensure successful implementation — from day one through long-term growth.</p>
+        </div>
+        <div class="about-card">
+          <div class="about-icon">📋</div>
+          <h4>Regulatory Awareness</h4>
+          <p>Our product is the only exosome with a 351(a) FDA application — a critical differentiation from every other product on the market. We help you understand what that means.</p>
+        </div>
       </div>
     </div>
   </div>
 </section>
 
 <!-- CTA / CONTACT -->
-<section class="cta-section" id="contact">
+<section id="contact" class="contact-section">
   <div class="container">
-    <p class="section-subtitle">Get Started</p>
-    <h2>Ready to elevate your practice?</h2>
-    <p>Schedule a consultation to learn how UC-MSC exosome solutions can differentiate your practice and deliver premium outcomes for your patients.</p>
-    <form class="contact-form" action="https://formspree.io/f/xeelbkop" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Email Address" required>
-      <input type="text" name="practice" placeholder="Practice Name">
-      <select name="specialty">
-        <option value="" disabled selected>Your Specialty</option>
-        <option value="aesthetics">Medical Aesthetics / Med Spa</option>
-        <option value="orthopedics">Orthopedics / Sports Medicine</option>
-        <option value="dermatology">Dermatology</option>
-        <option value="pain">Pain Management</option>
-        <option value="functional">Functional Medicine</option>
-        <option value="chiropractic">Chiropractic</option>
-        <option value="neurology">Neurology</option>
-        <option value="cardiology">Cardiology</option>
-        <option value="pulmonology">Pulmonology</option>
-        <option value="wellness">Preventative Wellness</option>
-        <option value="other">Other</option>
-      </select>
-      <textarea name="message" placeholder="Tell us about your practice and interests..."></textarea>
-      <button type="submit" class="btn-primary">Request a Consultation</button>
-    </form>
+    <div class="contact-layout">
+      <div class="contact-text">
+        <p class="section-label light-label">Get Started</p>
+        <h2>Ready to Integrate Exosomes<br><em>Into Your Practice?</em></h2>
+        <p>Schedule a complimentary consultation to discuss your practice goals, patient population, and how Vantage Biologics can support your integration.</p>
+        <div class="contact-bullets">
+          <div class="cb-item">✓ No obligation introductory call</div>
+          <div class="cb-item">✓ Tailored to your specialty</div>
+          <div class="cb-item">✓ Education before any commitment</div>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" action="https://formspree.io/f/xeelbkop" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Email Address" required>
+          <input type="text" name="practice" placeholder="Practice Name">
+          <select name="specialty">
+            <option value="" disabled selected>Your Specialty</option>
+            <option value="aesthetics">Medical Aesthetics / Med Spa</option>
+            <option value="orthopedics">Orthopedics / Sports Medicine</option>
+            <option value="dermatology">Dermatology</option>
+            <option value="pain">Pain Management</option>
+            <option value="functional">Functional Medicine</option>
+            <option value="chiropractic">Chiropractic</option>
+            <option value="neurology">Neurology</option>
+            <option value="cardiology">Cardiology</option>
+            <option value="pulmonology">Pulmonology</option>
+            <option value="wellness">Preventative Wellness</option>
+            <option value="other">Other</option>
+          </select>
+          <textarea name="message" placeholder="Tell us about your practice and what you're looking to accomplish..."></textarea>
+          <button type="submit">Book a Consultation</button>
+        </form>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
   <div class="container">
-    <p>&copy; 2026 Vantage Biologics LLC. All rights reserved.</p>
-    <p style="margin-top: 0.5rem;"><a href="mailto:colby@vantage-biologics.com">colby@vantage-biologics.com</a></p>
-    <p class="disclaimer">The information provided on this website is for educational and informational purposes only and is not intended as medical advice. The mesenchymal exosome products referenced are classified under FDA Section 351(a) and are for investigational use only — they are not approved to diagnose, treat, cure, or prevent any disease. All referenced studies are publicly available on PubMed and represent independent research findings. Healthcare providers are responsible for ensuring all use complies with applicable laws and clinical judgment. Vantage Biologics LLC is a consulting and distribution partner and does not manufacture exosome products. Consult a qualified healthcare professional before making treatment decisions.</p>
+    <div class="footer-layout">
+      <div class="footer-brand">
+        <img src="long%20one2.png" alt="Vantage Biologics" class="footer-logo">
+        <p>Consulting and distribution partner for premium UC-MSC exosome solutions.</p>
+        <p><a href="mailto:colby@vantage-biologics.com">colby@vantage-biologics.com</a></p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <strong>Services</strong>
+          <a href="#consulting">Consulting Services</a>
+          <a href="#exosome-solutions">Exosome Solutions</a>
+          <a href="#for-practices">For Practices</a>
+        </div>
+        <div class="footer-col">
+          <strong>Company</strong>
+          <a href="#science">The Science</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Vantage Biologics LLC. All rights reserved.</p>
+      <p class="footer-disclaimer">The information provided on this website is for educational and informational purposes only and is not intended as medical advice. The mesenchymal exosome products referenced are classified under FDA Section 351(a) and are for investigational use only — they are not approved to diagnose, treat, cure, or prevent any disease. All referenced studies are publicly available on PubMed and represent independent research findings. Healthcare providers are responsible for ensuring all use complies with applicable laws and clinical judgment. Vantage Biologics LLC is a consulting and distribution partner and does not manufacture exosome products. Consult a qualified healthcare professional before making treatment decisions.</p>
+    </div>
   </div>
 </footer>
+
+<script>
+  // Nav scroll effect
+  const nav = document.getElementById('mainNav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 50);
+  });
+
+  // Mobile toggle
+  document.getElementById('mobileToggle').addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('active');
+    document.getElementById('mobileToggle').classList.toggle('open');
+  });
+
+  // Close mobile nav on link click
+  document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      document.getElementById('navLinks').classList.remove('active');
+      document.getElementById('mobileToggle').classList.remove('open');
+    });
+  });
+
+  // Scroll-triggered fade-in
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.why-card, .service-card, .ra-card, .study-card, .about-card, .solution-card').forEach(el => {
+    el.classList.add('fade-in');
+    observer.observe(el);
+  });
+</script>
 
 </body>
 </html>
